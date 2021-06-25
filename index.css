@@ -12,28 +12,28 @@ button{
     cursor: pointer; 
 }
 .add {
-    background: green;
+    background: #36B900;
     color: white;
     padding: 12px;
     border: none;
     border-radius: 6px;
 }
 .add:hover {
-    background: rgb(17, 177, 17);
+    background: #44D807;
 }
 
 .del {
-    background: rgb(228, 0, 0);
+    background: #FF4E00;
     color: white;
     padding: 12px;
     border: none;
     border-radius: 6px;
 }
 .del:hover {
-    background: rgb(255, 81, 81);
+    background: #FF7133;
 }
 
 .num{
     font-size: 2.5em;
-    color: blueviolet;
+    color: #00A7FF;
 }
