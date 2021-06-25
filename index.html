@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Header</h1>
+    </div>
+    <div class="container num" id="num"></div>
+    <div class="container">
+        <button class="add" id="button-add">Add 10</button>
+        <button class="del" id="button-del">Del 2</button>
+    </div>
+</body>
+<script>
+    let num = 0;
+    document.getElementById('num').textContent  = num
+    document.getElementById('button-add').onclick = function(event) {
+        num += 10
+        document.getElementById('num').textContent  = num
+    }
+    document.getElementById('button-del').onclick = function(event) {
+        num -= 2
+        document.getElementById('num').textContent  = num
+    }
+</script>
+</html>
