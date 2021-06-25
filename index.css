@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+*, body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.container {
+    padding: 12px;
+}
+button{
+    cursor: pointer; 
+}
+.add {
+    background: green;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+}
+.add:hover {
+    background: rgb(17, 177, 17);
+}
+
+.del {
+    background: rgb(228, 0, 0);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+}
+.del:hover {
+    background: rgb(255, 81, 81);
+}
+
+.num{
+    font-size: 2.5em;
+    color: blueviolet;
+}
